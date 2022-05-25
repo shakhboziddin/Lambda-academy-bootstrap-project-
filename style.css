@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+:root {
+    --main-color: rgb(242, 76, 104);
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(202, 202, 242);
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+}
+.lambda {
+    position: relative;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize
+}
+.navbar .navbar-nav .nav-item a.active {
+    color: var(--main-color);
+}
+.navbar-brand img {
+    width: 50px;
+    position: absolute;
+    z-index: 99;
+    opacity: 0.4;
+    top: 2px;
+}
+.academy {
+    font-size: 17px;
+    text-transform: lowercase;
+    color: rgba(0, 0, 255, 0.2);
+}
+#home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 255, 0.4),rgba(0, 0, 255, 0.4)), url(https://i.pinimg.com/originals/1c/34/2a/1c342af2edca1470612f097be5b6112e.jpg);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn-color {
+    background-color: var(--main-color);
+    border-radius: 0;
+    padding: 8px;
+    width: 100px;   
+    font-size: 16px;
+}
+.btn-color:hover {
+    background-color: red;
+    border: red;
+}
+.homeHeader {
+    padding-bottom: 100px;
+    /* width: 90%; */
+}
+.homeHeader h1 {
+    /* font-size: 50px;  */
+    font-weight: 600;
+}
+.homeHeader p {
+    width: 70%;
+
+}
+.i {
+    height: 1000px;
+}
+@media(max-width: 390px){
+    .homeHeader p  {
+        width: 100%;
+    }
+    .homeHeader h1 {
+        width: 100%;
+
+    }
+}
+.allSectionsHeader {
+    margin: 85px auto;
+}
+.allSectionsHeader h1 {
+    font-size: 40px;
+}
+.allSectionsHeader .lineSections {
+    background: grey;
+    width: 90px;
+    height: 2px;
+
+}
