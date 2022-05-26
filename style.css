@@ -336,6 +336,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 120px auto;
 }
 .brands {
     display: flex;
@@ -349,3 +350,59 @@ html {
         
     }
 }
+
+#contact {
+    margin: 50px auto;
+}
+
+.contactImg img{
+    width: 100%;
+    object-fit:cover cover;
+ } 
+small {
+    color: #e93bc6;
+    font-size: 13px;
+}
+@media (max-width: 991px) {
+    .contactForm {
+        width: 90%;
+        margin-top: 40px;
+    }
+    .contactImg {
+        width: 90%;
+    }
+}
+
+.greatBg {
+    background: #E93B81;
+    margin: 50px auto;
+}
+
+.startedBtn {
+    border-radius: 0;
+}
+.greatCont {
+    padding: 30px;
+}
+.footerIcons {
+    margin:8px;
+}
+.footerIcons i {
+    margin: auto 3px;
+}
+footer ul li {
+    list-style-type:none;
+}
+.footerNav {
+    margin-left: 30px;
+}
+.numberPhone {
+    margin: 10px auto;;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
