@@ -330,9 +330,7 @@ html {
 #testimonials .nav-pills .nav-link.active {
     background-color: transparent;
 }
-.brands {
-    width: 100%;
-}
+
 .clients {
     display: flex;
     justify-content: center;
@@ -345,6 +343,9 @@ html {
     align-items: center;
     margin: 50px auto;
 }
-.brands .brand img {
-    object-fit: cover;
+@media(max-width: 480px) {
+    .brands .brand img {
+        width: 80%;
+        
+    }
 }
