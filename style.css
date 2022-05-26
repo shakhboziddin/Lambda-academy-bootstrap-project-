@@ -4,6 +4,7 @@
 :root {
     --main-color: #E93B81;
 }
+
 * {
     transition: .3s;
 }
@@ -196,7 +197,7 @@ html {
 .featureIcon {
     width: 40px;
     height: 40px;
-     background: var(--main-color);
+    background: var(--main-color);
     border-radius: 50%;
     ;
     margin-right: 20px;
@@ -216,17 +217,21 @@ html {
 #team {
     margin: 60px auto;
 }
+
 .team {
     background-color: #11245a;
     position: relative;
 }
+
 .secondColorForTeam {
     background: #162e6e;
 }
+
 .teamImg img {
     width: 100%;
     object-fit: cover;
 }
+
 .teamIcons {
     background-color: #E93B81;
     height: 65px;
@@ -236,6 +241,7 @@ html {
     width: 100%;
     bottom: -70px;
 }
+
 .teamIcons .teamIcon {
     width: 43px;
     color: #fff;
@@ -250,6 +256,7 @@ html {
     font-size: 25px;
     transition: .3s;
 }
+
 .teamContent {
     height: 250px;
     display: flex;
@@ -258,24 +265,86 @@ html {
     justify-content: center;
     text-align: center;
 }
+
 .lineTeam {
     background-color: rgb(215, 212, 212);
     height: 2px;
     width: 80px;
     margin: 13px auto;
 }
+
 .teamImg {
     position: relative;
     overflow: hidden;
     transition: 4.s;
 }
-.team:hover img{
+
+.team:hover img {
     transform: translateY(-60px);
 }
+
+
+
+
+#testimonials {
+    margin: 60px auto;
+}
+
+.stars {
+    margin: 20px auto;
+}
+
 .teamIcon:hover {
     color: #E93B81;
     background-color: #fff;
 }
+
 .team:hover .teamIcons {
     bottom: -5px;
+}
+
+.testimonialsTeam {
+    text-align: center;
+}
+
+.testimonialsTeam img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonialsButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonialsButton button.active img {
+    transform: scale(1.2);
+}
+
+.testimonialsButton button.active {
+    background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.active {
+    background-color: transparent;
+}
+.brands {
+    width: 100%;
+}
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+.brands .brand img {
+    object-fit: cover;
 }
