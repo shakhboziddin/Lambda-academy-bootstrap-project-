@@ -76,11 +76,12 @@ html {
     padding: 8px;
     width: 100px;
     font-size: 16px;
+    border: 1px solid var(--main-color);
 }
 
 .btn-color:hover {
     background-color: red;
-    border: red;
+    border: 1px solid red;
 }
 
 .homeHeader {
@@ -206,6 +207,9 @@ html {
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+.featureContent h4 {
+    color: rgb(2, 2, 92);
 }
 
 .featureMain {
@@ -393,9 +397,6 @@ small {
 footer ul li {
     list-style-type:none;
 }
-.footerNav {
-    margin-left: 30px;
-}
 .numberPhone {
     margin: 10px auto;;
 }
@@ -404,5 +405,13 @@ footer ul li {
     align-items: center;
     justify-content: center;
     padding: 40px;
+    margin-left: 0;
 }
-
+.footerUl {
+    padding-left: 0;
+}
+.teamParagraph {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;   
+}
